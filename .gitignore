@@ -21,5 +21,10 @@ build
 eclipse
 run
 build
+gradle
+_build.bat
+_update.bat
+gradlew
+gradlew.bat
 
 
