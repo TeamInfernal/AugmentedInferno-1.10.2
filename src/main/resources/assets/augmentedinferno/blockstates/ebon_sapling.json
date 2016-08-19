@@ -1,0 +1,13 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+			"cross": "augmentedinferno:blocks/ebon_sapling"
+	    },
+		"model": "cross",
+		"transform": "forge:default-block"
+    },
+	"variants": {
+		"normal": [{}]
+    }
+}

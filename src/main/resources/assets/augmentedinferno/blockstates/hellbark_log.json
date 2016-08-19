@@ -1,0 +1,25 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+			"end": "augmentedinferno:blocks/hellbark_log_top",
+			"side": "augmentedinferno:blocks/hellbark_log_side"
+	    },
+		"model": "cube_column",
+		"transform": "forge:default-block"
+    },
+	"variants": {
+		"axis": {
+			"x": {"x": 90, "y": 90 },
+			"y": {},
+			"z": {"x": 90 },
+			"none": {
+				"model": "cube_all",
+				"textures": {
+					"all": "augmentedinferno:blocks/hellbark_log_side"
+				}
+			}
+		},
+		"inventory": [{}]
+    }
+}

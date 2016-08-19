@@ -1,0 +1,22 @@
+itemGroup.tabInfernal=Augmented Inferno
+
+tile.basalt.name=Basalt
+tile.basalt_bricks.name=Basalt Bricks
+tile.ebon_leaves.name=Ebon Leaves
+tile.ebon_log.name=Ebon Wood
+tile.ebon_planks.name=Ebon Wood Planks
+tile.ebon_sapling.name=Ebon Sapling
+tile.hellbark_leaves.name=Hellbark Leaves
+tile.hellbark_log.name=Hellbark Wood
+tile.hellbark_planks.name=Hellbark Planks
+tile.hellbark_sapling.name=Hellbark Sapling
+tile.infernium_ore.name=Infernium Ore
+tile.starcilium_ore.name=Starcilium Ore
+tile.blood_rock_ore.name=Blood Rock Ore
+tile.starcilium_block.name=Starcilium Block
+
+item.ectoplasm.name=Ectoplasm
+item.rune.name=Rune
+item.starcilium.name=Starcilium
+item.infernium_shard.name=Infernium Shard
+item.blood_rock.name=Blood Rock
