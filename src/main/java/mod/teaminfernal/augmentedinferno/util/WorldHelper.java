@@ -68,6 +68,10 @@ public class WorldHelper {
 		switch(treeType) {
 		
 		case NORMAL:
+			if(random.nextInt(20) == 0) {
+				generateTree(world, startPos, tree, TreeTypes.LARGE);
+				break;
+			}
 			logsY.add(startPos);
 			logsY.add(startPos.up());
 			logsY.add(startPos.up(2));
@@ -125,7 +129,10 @@ public class WorldHelper {
 		case BUSH:
 			break;
 			
-		case WIDE:
+		case BIG:
+			break;
+			
+		case EXTRA_BIG:
 			break;
 			
 		case HOUSE:
@@ -149,7 +156,8 @@ public class WorldHelper {
 		LARGE,
 		PALM,
 		BUSH,
-		WIDE,
+		BIG,
+		EXTRA_BIG,
 		HOUSE;
 	}
 	

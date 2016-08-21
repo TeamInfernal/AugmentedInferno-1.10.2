@@ -14,6 +14,8 @@ tile.infernium_ore.name=Infernium Ore
 tile.starcilium_ore.name=Starcilium Ore
 tile.blood_rock_ore.name=Blood Rock Ore
 tile.starcilium_block.name=Starcilium Block
+tile.infernium_block.name=Infernium Block
+tile.blood_rock_block.name=Blood Rock Block
 
 item.ectoplasm.name=Ectoplasm
 item.rune.name=Rune

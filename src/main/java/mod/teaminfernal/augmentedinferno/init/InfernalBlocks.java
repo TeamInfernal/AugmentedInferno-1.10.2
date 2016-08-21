@@ -9,7 +9,7 @@ import mod.teaminfernal.augmentedinferno.blocks.BlockBasaltBricks;
 import mod.teaminfernal.augmentedinferno.blocks.BlockOreBloodRock;
 import mod.teaminfernal.augmentedinferno.blocks.BlockOreInfernium;
 import mod.teaminfernal.augmentedinferno.blocks.BlockOreStarcilium;
-import mod.teaminfernal.augmentedinferno.blocks.BlockStarcilium;
+import mod.teaminfernal.augmentedinferno.blocks.BlockStorage;
 import net.minecraft.block.Block;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.client.renderer.block.statemap.StateMap;
@@ -34,7 +34,9 @@ public class InfernalBlocks {
 	public static Block INFERNIUM_ORE  = new BlockOreInfernium();
 	public static Block STARCILIUM_ORE = new BlockOreStarcilium();
 	public static Block BLOOD_ROCK_ORE = new BlockOreBloodRock();
-	public static Block STARCILIUM_BLOCK = new BlockStarcilium();
+	public static Block STARCILIUM_BLOCK = new BlockStorage("starcilium");
+	public static Block INFERNIUM_BLOCK = new BlockStorage("infernium");
+	public static Block BLOOD_ROCK_BLOCK = new BlockStorage("blood_rock");
 	
 	
 	public static void init() {
@@ -54,6 +56,8 @@ public class InfernalBlocks {
 		register(STARCILIUM_ORE);
 		register(BLOOD_ROCK_ORE);
 		register(STARCILIUM_BLOCK);
+		register(INFERNIUM_BLOCK);
+		register(BLOOD_ROCK_BLOCK);
 	}
 
 	public static void registerRenders() {
@@ -69,6 +73,8 @@ public class InfernalBlocks {
 		registerRender(STARCILIUM_ORE);
 		registerRender(BLOOD_ROCK_ORE);
 		registerRender(STARCILIUM_BLOCK);
+		registerRender(INFERNIUM_BLOCK);
+		registerRender(BLOOD_ROCK_BLOCK);
 		
 		ModelLoader.setCustomStateMapper(HELLBARK_SAPLING, new StateMap.Builder().ignore(new IProperty[]{BasicSapling.STAGE}).build());
 		registerRender(HELLBARK_SAPLING);
