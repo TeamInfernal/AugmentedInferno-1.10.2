@@ -15,7 +15,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-public class BasicLog extends BasicBlock
+public class BasicLog extends BasicBlock//log class currently broken :(
 {
 	public static final PropertyEnum<Axis> AXIS = PropertyEnum.create("axis", EnumFacing.Axis.class);
 
